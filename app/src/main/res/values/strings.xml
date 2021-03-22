@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Memory</string>
+    <string name="question_quit">Quit your current game?</string>
+    <string name="choose_pics">Choose pics (%1$d / %2$d)</string>
+    <string name="photos_access_request">In order to create a custom game, you need to provide access to your photos</string>
+    <string name="name_taken">Name taken</string>
+    <string name="game_name_exist">A game already exist with the name \'%1$s\'. Please choose another name</string>
+    <string name="failed_upload_image">Failed to upload image</string>
+    <string name="failed_game_creation">Failed game creation</string>
+    <string name="success_create_game">Upload complete! Let\'s play your game \'%1$s\'</string>
+    <string name="fetch_game">Fetch memory game</string>
+    <string name="game_not_find">Sorry, we couldn\'t find any game</string>
+    <string name="play_now">You are now playing</string>
+    <string name="create_board">Create your own memory board</string>
+    <string name="choose_size">Choose new size</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="easy">Easy: 4 x 2</string>
+    <string name="medium">Medium: 6 x 3</string>
+    <string name="hard">Hard: 6 x 4</string>
+    <string name="pairs">Pairs: %1$d / %2$d</string>
+    <string name="won">You already won!</string>
+    <string name="invalid_move">Invalid move!</string>
+    <string name="won_congratulations">You won! Congratulations.</string>
+    <string name="moves">Moves: %1$d</string>
+    <string name="error_save_game">Error saving the game</string>
+    <string name="choose_new_size">Choose new size</string>
+    <string name="create_custom_game">Create Custom Game</string>
+    <string name="download_custom_game">Download custom game</string>
+    <string name="game_name_hint">Game name (example: \'panda_fun\')</string>
+    <string name="refresh">Refresh</string>
+    <string name="enter_game_name">Enter game name</string>
+    <string name="init_moves">Moves: 0</string>
+    <string name="init_pairs">Pairs: 0 / 4</string>
+    <string name="save">Save</string>
+</resources>

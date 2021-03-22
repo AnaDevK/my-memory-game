@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Joc memorie</string>
+    <string name="question_quit">Părăsești jocul curent?</string>
+    <string name="choose_pics">Alege imaginile (%1$d / %2$d)</string>
+    <string name="photos_access_request">Pentru a crea un joc customizabil, trebuie să permiți accesul la poze</string>
+    <string name="name_taken">Nume existent</string>
+    <string name="game_name_exist">Există deja un alt joc cu acest nume \'%1$s\'</string>
+    <string name="error_save_game">Eroare, jocul nu a putut fi salvat</string>
+    <string name="failed_upload_image">Eroare, imaginea nu a putut fi salvată</string>
+    <string name="failed_game_creation">Eroare, jocul nu a fost creat</string>
+    <string name="success_create_game">Încărcare completă! Hai să ne jucăm \'%1$s\'</string>
+    <string name="fetch_game">Se caută jocul</string>
+    <string name="game_not_find">Nu s-a gasit jocul</string>
+    <string name="play_now">Acum te joci</string>
+    <string name="create_board">Creează-ți propriul joc</string>
+    <string name="choose_size">Alege noua dimensiune</string>
+    <string name="cancel">Anulează</string>
+    <string name="ok">OK</string>
+    <string name="easy">Usor: 4 x 2</string>
+    <string name="medium">Mediu: 6 x 3</string>
+    <string name="hard">Dificil: 6 x 4</string>
+    <string name="pairs">Perechi: %1$d / %2$d</string>
+    <string name="won">Ai câștigat deja!</string>
+    <string name="invalid_move">Mișcare invalidă!</string>
+    <string name="won_congratulations">Ai caștigat! Felicitări.</string>
+    <string name="moves">Mișcări: %1$d</string>
+    <string name="choose_new_size">Alege noua dimensiune</string>
+    <string name="create_custom_game">Creează propriul joc</string>
+    <string name="download_custom_game">Încarcă un joc nou</string>
+    <string name="game_name_hint">Nume joc (exemplu: \'panda\')</string>
+    <string name="refresh">Restart</string>
+    <string name="enter_game_name">Introdu numele jocului</string>
+    <string name="init_moves">Mișcări: 0</string>
+    <string name="init_pairs">Perechi: 0 / 4</string>
+    <string name="save">Salvează</string>
+</resources>
