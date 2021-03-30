@@ -33,4 +33,15 @@
     <string name="init_moves">Moves: 0</string>
     <string name="init_pairs">Pairs: 0 / 4</string>
     <string name="save">Save</string>
+    <string name="get_user_games">Get my customized games</string>
+    <string name="choose_game">Choose a game to play</string>
+    <string name="user_games_not_found">We couldn\'t find  any game for this user</string>
+    <string name="select_game">--Select a game--</string>
+    <string name="no_game">No game selected</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="sign_in_google">Sign-in with google account</string>
+    <string name="loggedin_success">Successfully logged-in!</string>
+    <string name="loggedin_error">Error logging in!</string>
+    <string name="loggedout_success">Successfully logged-out!</string>
 </resources>

@@ -16,10 +16,7 @@ import android.text.TextWatcher
 import android.util.Log
 import android.view.MenuItem
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ProgressBar
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -52,6 +49,7 @@ class CreateActivity : AppCompatActivity() {
     private val chosenImageUris = mutableListOf<Uri>()
     private val storage = Firebase.storage
     private val db = Firebase.firestore
+    private lateinit var userEmail: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -64,6 +62,7 @@ class CreateActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         boardSize = intent.getSerializableExtra(EXTRA_BOARD_SIZE) as BoardSize
+        userEmail = intent.getStringExtra(USER_EMAIL) as String
         numImagesRequired = boardSize.getNumPairs()
 
         supportActionBar?.title = getString(R.string.choose_pics, 0, numImagesRequired)
@@ -103,6 +102,7 @@ class CreateActivity : AppCompatActivity() {
         rvImagePicker.adapter = adapter
         rvImagePicker.setHasFixedSize(true)
         rvImagePicker.layoutManager = GridLayoutManager(this, boardSize.getWidth())
+
     }
 
 
@@ -242,7 +242,8 @@ class CreateActivity : AppCompatActivity() {
     private fun handleAllImagesUploaded(gameName: String, imageUrls: MutableList<String>) {
         //Upload this info to Firestore
         db.collection("games").document(gameName)
-            .set(mapOf("images" to imageUrls))
+            .set(mapOf("images" to imageUrls,
+                "userEmail" to userEmail))
             .addOnCompleteListener { gameCreationTask ->
                 pbUploading.visibility = View.GONE
                 if (!gameCreationTask.isSuccessful) {

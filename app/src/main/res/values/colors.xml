@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="color_grey">#E0E0E0</color>
@@ -11,6 +9,6 @@
 
     <color name="green_dark">#235D1E</color>
     <color name="green_darkest">#152D13</color>
-    <color name="green_blue">#FF018786</color>
+    <color name="green_blue">#33691e</color>
 
 </resources>

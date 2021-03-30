@@ -34,4 +34,15 @@
     <string name="init_moves">Mișcări: 0</string>
     <string name="init_pairs">Perechi: 0 / 4</string>
     <string name="save">Salvează</string>
+    <string name="get_user_games">Jocurile mele</string>
+    <string name="choose_game">Alege un joc</string>
+    <string name="user_games_not_found">Nu am găsit nici un joc</string>
+    <string name="select_game">--Selectează un joc--</string>
+    <string name="no_game">Nu ați selectat nici un joc</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="sign_in_google">Loghează-te cu contul google</string>
+    <string name="loggedin_success">Logged-in!</string>
+    <string name="loggedin_error">Eroare la logare!</string>
+    <string name="loggedout_success">Logged-out!</string>
 </resources>
