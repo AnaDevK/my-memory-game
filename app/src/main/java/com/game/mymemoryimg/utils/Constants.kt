@@ -1,6 +1,6 @@
-package com.game.mymemory.utils
+package com.game.mymemoryimg.utils
 
-import com.game.mymemory.R
+import com.game.mymemoryimg.R
 
 const val EXTRA_BOARD_SIZE = "EXTRA_BOARD_SIZE"
 const val EXTRA_GAME_NAME = "EXTRA_GAME_NAME"

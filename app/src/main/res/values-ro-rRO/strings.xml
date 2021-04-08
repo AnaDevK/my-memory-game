@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Joc memorie</string>
+    <string name="app_name">MemoCards</string>
     <string name="question_quit">Părăsești jocul curent?</string>
     <string name="choose_pics">Alege imaginile (%1$d / %2$d)</string>
     <string name="photos_access_request">Pentru a crea un joc customizabil, trebuie să permiți accesul la poze</string>
@@ -23,7 +23,7 @@
     <string name="pairs">Perechi: %1$d / %2$d</string>
     <string name="won">Ai câștigat deja!</string>
     <string name="invalid_move">Mișcare invalidă!</string>
-    <string name="won_congratulations">Ai caștigat! Felicitări.</string>
+    <string name="won_congratulations">Ai caștigat! Felicitări!</string>
     <string name="moves">Mișcări: %1$d</string>
     <string name="choose_new_size">Alege noua dimensiune</string>
     <string name="create_custom_game">Creează propriul joc</string>

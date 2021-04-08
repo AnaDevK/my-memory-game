@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1066448747203",
+    "project_id": "memory-prod-a87e8",
+    "storage_bucket": "memory-prod-a87e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066448747203:android:d78472818c4bda81dd8076",
+        "android_client_info": {
+          "package_name": "com.game.mymemoryimg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066448747203-cinl75otirplq6g0qdahaj023mi2r0qg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.game.mymemoryimg",
+            "certificate_hash": "d89a0467dcae2838aba443c73bbcf96054fb91af"
+          }
+        },
+        {
+          "client_id": "1066448747203-6sgtclo537rt3nbs9farq3pm39hq2lu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn0gjc8bAqFqAWOiMw_tmhxheKFEWV9_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066448747203-6sgtclo537rt3nbs9farq3pm39hq2lu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

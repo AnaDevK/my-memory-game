@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Memory</string>
+    <string name="app_name">MemoCards</string>
     <string name="question_quit">Quit your current game?</string>
     <string name="choose_pics">Choose pics (%1$d / %2$d)</string>
     <string name="photos_access_request">In order to create a custom game, you need to provide access to your photos</string>
@@ -21,13 +21,13 @@
     <string name="pairs">Pairs: %1$d / %2$d</string>
     <string name="won">You already won!</string>
     <string name="invalid_move">Invalid move!</string>
-    <string name="won_congratulations">You won! Congratulations.</string>
+    <string name="won_congratulations">You won! Congratulations!</string>
     <string name="moves">Moves: %1$d</string>
     <string name="error_save_game">Error saving the game</string>
     <string name="choose_new_size">Choose new size</string>
     <string name="create_custom_game">Create Custom Game</string>
     <string name="download_custom_game">Download custom game</string>
-    <string name="game_name_hint">Game name (example: \'panda_fun\')</string>
+    <string name="game_name_hint">Game name (example: \'animal_cards\')</string>
     <string name="refresh">Refresh</string>
     <string name="enter_game_name">Enter game name</string>
     <string name="init_moves">Moves: 0</string>

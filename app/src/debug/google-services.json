@@ -7,20 +7,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:76742322299:android:981fa5b73755ec81de1ade",
+        "mobilesdk_app_id": "1:76742322299:android:8d73474a2c151df2de1ade",
         "android_client_info": {
-          "package_name": "com.game.mymemory"
+          "package_name": "com.game.mymemoryimg"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "76742322299-evnkdll5d5a8u8bruoa6arsahu8q0ot3.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.game.mymemory",
-            "certificate_hash": "496cdccc3b7554ed68f80a90332e9f4d59aba390"
-          }
-        },
         {
           "client_id": "76742322299-0pivg7mfabpmbj76cr0jfakqosn4pfbd.apps.googleusercontent.com",
           "client_type": 3

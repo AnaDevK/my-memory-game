@@ -1,4 +1,4 @@
-package com.game.mymemory.models
+package com.game.mymemoryimg.models
 
 import com.google.firebase.firestore.PropertyName
 

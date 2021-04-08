@@ -1,4 +1,4 @@
-package com.game.mymemory
+package com.game.mymemoryimg
 
 import android.net.Uri
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.game.mymemory.models.BoardSize
+import com.game.mymemoryimg.models.BoardSize
 import kotlin.math.min
 
 class ImagePickerAdapter(

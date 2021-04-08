@@ -1,4 +1,4 @@
-package com.game.mymemory.models
+package com.game.mymemoryimg.models
 
 enum class BoardSize(val numCards: Int) {
     EASY(8),

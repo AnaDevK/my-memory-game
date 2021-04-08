@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.game.mymemory">
+    package="com.game.mymemoryimg">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,11 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMemory">
         <activity
-            android:name=".CreateActivity"
+            android:name="com.game.mymemoryimg.CreateActivity"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.game.mymemoryimg.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.game.mymemory
+package com.game.mymemoryimg
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry

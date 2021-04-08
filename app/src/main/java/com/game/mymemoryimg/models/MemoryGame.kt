@@ -1,6 +1,6 @@
-package com.game.mymemory.models
+package com.game.mymemoryimg.models
 
-import com.game.mymemory.utils.DEFAULT_ICONS
+import com.game.mymemoryimg.utils.DEFAULT_ICONS
 
 class MemoryGame(private val boardSize: BoardSize, private val customImages: List<String>?) {
 

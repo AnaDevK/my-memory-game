@@ -1,10 +1,10 @@
-package com.game.mymemory
+package com.game.mymemoryimg
 
 import android.animation.ArgbEvaluator
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.DialogInterface
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -12,18 +12,16 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.*
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.game.mymemory.models.BoardSize
-import com.game.mymemory.models.MemoryGame
-import com.game.mymemory.models.UserGames
-import com.game.mymemory.models.UserImageList
-import com.game.mymemory.utils.EXTRA_GAME_NAME
-import com.github.jinatonic.confetti.CommonConfetti
+import com.game.mymemoryimg.models.BoardSize
+import com.game.mymemoryimg.models.MemoryGame
+import com.game.mymemoryimg.models.UserGames
+import com.game.mymemoryimg.models.UserImageList
+import com.game.mymemoryimg.utils.EXTRA_GAME_NAME
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
@@ -34,6 +32,7 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.squareup.picasso.Picasso
+import java.util.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -189,7 +188,7 @@ class MainActivity : AppCompatActivity() {
                             Snackbar.make(clRoot, getString(R.string.user_games_not_found), Snackbar.LENGTH_SHORT).show()
                             return@addOnCompleteListener
                         }
-                        if (userImageList.userEmail?.trim() == userEmail?.trim()) {
+                        if (userImageList.userEmail == userEmail) {
                             games.add(UserGames(document.id, userImageList))
                         }
                     }
@@ -416,7 +415,7 @@ class MainActivity : AppCompatActivity() {
 
             if (memoryGame.haveWonGame()) {
                 Snackbar.make(clRoot, getString(R.string.won_congratulations), Snackbar.LENGTH_LONG).show()
-                CommonConfetti.rainingConfetti(clRoot, intArrayOf(Color.YELLOW, Color.GREEN, Color.MAGENTA)).oneShot()
+                //CommonConfetti.rainingConfetti(clRoot, intArrayOf(Color.YELLOW, Color.GREEN, Color.MAGENTA)).oneShot()
             }
         }
         tvNumMoves.text = getString(R.string.moves, memoryGame.getNumMoves())

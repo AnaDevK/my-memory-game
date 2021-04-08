@@ -1,4 +1,4 @@
-package com.game.mymemory
+package com.game.mymemoryimg
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -20,8 +20,8 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.game.mymemory.models.BoardSize
-import com.game.mymemory.utils.*
+import com.game.mymemoryimg.models.BoardSize
+import com.game.mymemoryimg.utils.*
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.ktx.storage

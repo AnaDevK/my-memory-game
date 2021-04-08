@@ -1,4 +1,4 @@
-package com.game.mymemory
+package com.game.mymemoryimg
 
 import org.junit.Test
 
